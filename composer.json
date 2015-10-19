@@ -1,0 +1,20 @@
+{
+    "name": "viktory/yii2-dropzone",
+    "description": "Yii2 widget for DropzoneJS , the open source library that provides drag and drop file uploads with image previews.",
+    "authors": [
+        {
+            "name": "Viktory Lysenko",
+            "email": "lysenkoviktory@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dropzone\\": "src/"
+        }
+    }
+}
